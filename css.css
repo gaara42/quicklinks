@@ -1,0 +1,134 @@
+/*Body*/
+html{
+	background:url('background.jpg');
+	background-size: cover;
+	background-repeat:repeat;
+	background-attachment:fixed;
+}
+body{
+	overflow:hidden;
+	text-transform:lowercase;
+	font-family:Helvetica,Arial,Sans-Serif;
+}
+/*Search*/
+.search {
+	width:95%;
+	margin-left:auto;
+	margin-right:auto;
+	line-height:0em;
+}
+form {
+	float:left;
+	width:20%;
+	padding:0;
+	margin:0;
+}
+input {
+	border-style:none;
+	text-transform:lowercase;
+	width:100%;
+	font-size:14px;
+	font-family:Helvetica,Arial,Sans-Serif;
+	font-weight:bold;
+	color:red;
+	padding:0;
+	margin:0;
+
+}
+/*Menu Content*/
+b {
+	color:red;
+}
+.maininfo{
+	position:relative;
+}
+.container {
+	position:relative;
+	display:table;
+	vertical-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	width:95%;
+}
+.menucontent,.menu,.menutitle{
+	-moz-transition:all 0.5s;
+	-o-transition:all 0.5s;
+	-webkit-transition:all 0.5s;
+	transition:all 0.5s;
+}
+.menu {
+	width:25%;
+}
+.menutitle {
+	background:white;
+	/*background:rgba(255,255,255,.7);*/
+	font-size:1.5em;
+	float:left;
+	width:100%;
+	/*border-bottom-style:solid;
+	border-bottom-color:red;
+	border-bottom-width:1px;*/
+}
+.menucontent {
+	background:white;
+	/*background:rgba(255,255,255,.7);*/
+	color:black;
+	width:70%;
+	position:absolute;
+	right:0%;
+	font-size:1em;
+	line-height:1em;
+	display:none;
+/*	border-top-style:solid;
+	border-top-color:black;
+	border-top-width:7px;
+	border-bottom-style:solid;
+	border-bottom-color:black;
+	border-bottom-width:7px;*/
+	-webkit-column-count:3;
+	-webkit-column-rule:1px solid #bbb;
+	-webkit-column-gap:1em;
+	-moz-column-count:3;
+	-moz-column-rule:1px solid #bbb;
+	-moz-column-gap:1em;
+	column-count:3;
+	column-rule:1px solid #bbb;
+	column-gap:1em;
+}
+.ispacer {
+	width:75%;
+	height:500px;
+	position:absolute;
+	right:0%;
+	top:-10%;
+	display:none;
+}
+.menu:hover {
+}
+.menu:hover .menutitle{
+	color:white;
+	background-color:black;
+}
+.menu:hover .ispacer {
+	display:block;
+}
+.container{
+border-top-style:solid;
+	border-top-color:red;
+	border-top-width:7px;
+}
+/*Link*/
+.menu:hover a {
+	text-decoration:none;
+	display:block;
+	margin:3px;
+}
+.menu:hover a:visited {
+	color:black;
+}
+.menu:hover a:link {
+	color:black;
+}
+.menu:hover a:hover {
+	color: red;
+}
