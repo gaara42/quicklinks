@@ -18,10 +18,10 @@
 			search_categories = ["Search"];
 			//Add to searches, see below
 			search["Search"] = {
+				"Google":"http://www.google.com/search",
 				"Google Sg":"http://www.google.com.sg/search",
 				"Google Scholar":"http://scholar.google.com/scholar",
 				"blekko":"http://blekko.com/ws/?q=%s",
-				"Google":"http://www.google.com/search",
 				"Bing":"http://www.bing.com/search",
 				"Youtube":"http://www.youtube.com/results?search_query=%s&aq=f",
 				"Wikipedia":"http://en.wikipedia.org/wiki/Special:Search?q=%s",
@@ -38,69 +38,9 @@
 			var categories = new Array();
 			var links = new Array();
 			//List of categories you would like to see on the page. You can add more by adding [,"Category Name"] to the array
-			categories = ["Important","Stanford","WebDev","Noticias","Diseno","Ciencias","Deportes","VideoJuegos","Castellano","Tecnologia","Politica","Diversion","Singapore"];
+			categories = ["News","Design"];
 			//Use the below format to create new categories	
-			links["Singapore"] = {
-				"Journal of Controlled Release":"http://www.sciencedirect.com.libproxy.mit.edu/science/journal/01683659/160",
-				"Singapore Health":"https://www.hthstudents.com/my_benefits/cov_benefits.cfm"
-			};			
-			links["Important"] = {
-				"short stories":"http://qntm.org/fiction",
-				"MIT Alum":"https://alum.mit.edu",
-				"Gmail":"https://mail.google.com/mail/?shva=1#inbox",
-				"Bank of America":"https://www.bankofamerica.com/index.jsp",
-				"Club Coat Check":"http://www.facebook.com/group.php?gid=168237012156&ref=ts",
-				"TLL":"http://www.tll.org.sg/",
-				"SUTD":"http://www.sutd.edu.sg/mit_collaboration.aspx",
-				"NSF":"https://www.fastlane.nsf.gov/grfp/fellowHome.do?method=loadFellowHome",
-				"Stellar":"http://stellar.mit.edu/atstellar/",
-				"MIT Cert":"http://ist.mit.edu/services/certificates",
-				"My Opera":"http://my.opera.com/GaaraZanta/blog/",
-				"Jabez":"https://triple-t.mit.edu/jabez/",
-				"Next Bus":"http://www.nextbus.com/predictor/stopSelector.jsp?a=mit",
-				"Basic Statistics":"http://www.statsoft.com/textbook/basic-statistics/?button=1",
-				"Basics of MRI":"http://www.cis.rit.edu/htbooks/mri/inside.htm",
-				"English Errors":"http://public.wsu.edu/~brians/errors/errors.html#errors",
-				"attachments gmail":"http://www.labnol.org/software/delete-large-email-attachments-in-gmail/9564/",
-				"regexp":"http://www.cheatography.com/davechild/cheat-sheets/regular-expressions/"
-			};
-			links["Stanford"] = {
-				"Web Page":"http://people.stanford.edu/bahanonu",
-				"Directory":"http://www.stanford.edu/~bahanonu",
-				"Email":"http://webmail.stanford.edu",
-				"Axess":"https://axess.stanford.edu/",
-				"Drupal":"https://people.stanford.edu/bahanonu/admin"
-			};
-			links["WebDev"] = {
-				"Google Webmaster":"https://www.google.com/webmasters/tools/home?hl=en&siteUrl=http://bahanonu.com/syscarut/site/",
-				"iPage mysql":"http://www.ipage.com/controlpanel/MySQL/login.bml?loginname=syscarut;dbname=syscarut",
-				"iPage Panel":"http://www.ipage.com/controlpanel/beta/website.bml",
-				"Best Practices":"http://developer.yahoo.com/performance/rules.html",
-				"Web Optimize":"http://www.websiteoptimization.com/services/analyze/",
-				"Google Currents":"https://www.google.com/producer/home#!/r/edition:CAowyJW8AQ:CAAqBwgKMMiVvAEwh88R/basics",
-				"Images":"http://www.tineye.com/",
-				"Syscarut Manager On":"http://bahanonu.com/syscarut/assets/manager/",
-				"Syscarut Manager Off":"http://localhost/syscarut/syscarut/assets/manager/",
-				"sql.mit.edu":"https://scripts.mit.edu/~sql/phpMyAdmin",
-				"local MySQL":"http://localhost/phpmyadmin/index.php?db=articles_db",
-				"Syscarut Local":"http://localhost/syscarut/syscarut/site/?track=0",
-				"Syscarut Web":"http://bahanonu.com/syscarut/site/?track=0",
-				"Tsai Local":"http://localhost/syscarut/tsai",
-				"Tsai Web":"http://bahanonu.com/tsai",
-				"C3 Local":"http://localhost/syscarut/c3",
-				"C3 Web":"http://bahanonu.com/c3",
-				"Google Analytics":"https://www.google.com/analytics/web/#report/visitors-overview/a27956746w53484083p54349318/",
-				"Google Webmaster":"https://www.google.com/webmasters/tools/home?hl=en",
-				"scripts":"https://pony.scripts.mit.edu:444/index/bahanonu",
-				"responsivepx":"http://responsivepx.com/",
-				"clean CSS/HTML":"http://tools.arantius.com/tabifier",
-				"clean JS":"http://jsbeautifier.org/",
-				"SASS":"http://sass-lang.com/",
-				"How Browsers Work":"http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/",
-				"Sitemaps":"http://www.xml-sitemaps.com/",
-				"Source Code	":"http://www.hanselman.com/blog/CategoryView.aspx?category=Source+Code"
-			};
-			links["Noticias"] = {
+			links["News"] = {
 				"newsmap":"http://newsmap.jp",
 				"Tech Review":"http://www.technologyreview.com/",
 				"Drudge":"http://www.drudgereport.com/",
@@ -121,7 +61,7 @@
 				"Washington Post":"http://www.washingtonpost.com/",
 				"TODAYonline":"http://www.todayonline.com/Singapore"
 			};
-			links["Diseno"] = {
+			links["Design"] = {
 				"Joshua Hibbert":"http://joshnh.com",
 				"Andreas":"http://andreasviklund.com/",
 				"Daring Fireball":"http://daringfireball.net/",
@@ -178,175 +118,9 @@
 				"Henrik Helmers":"http://www.helmersworks.com/",
 				"Otaku Gangsta":"http://otakugangsta.com/"
 			};
-			links["Ciencias"] = {
-				"Cell":"http://www.cell.com/home",
-				"Nature":"http://www.nature.com/nature/current_issue.html",
-				"Science":"http://www.sciencemag.org/",
-				"Neuron":"http://www.cell.com/neuron/home",
-				"PNAS":"http://www.pnas.org/",
-				"Annual Reviews":"http://www.annualreviews.org/",
-				"Comp Bio, CSAIL":"http://compbio.mit.edu/papers.html",
-				"Nature Methods":"http://www.nature.com/nmeth/index.html",
-				"Trends in Neuro":"http://www.sciencedirect.com/science/journal/01662236",
-				"Frontiers, Cell Neuro":"http://www.frontiersin.org/Journal/specialty.aspx?s=156&name=cellular_neuroscience&x=y",
-				"Nature Neuroscience":"http://www.nature.com/neuro/index.html",
-				"Nat. Rev. Neuro":"http://www.nature.com/nrn/index.html",
-				"Nat. Rev. Mol Cell Bio":"http://www.nature.com/nrm/index.html",
-				"Trends in Cog Sci":"http://www.cell.com/trends/cognitive-sciences/current",
-				"Science Daily":"http://www.sciencedaily.com/",
-				"DOI":"http://www.doi.org/",
-				"Chemical Review":"http://pubs.acs.org/journal/chreay",
-				"Society for Neuro":"http://www.sfn.org/index.aspx?pagename=HistoryofNeuroscience_autobiographies#vol_one",
-				"!Papers Biology":"http://en.wikipedia.org/wiki/List_of_important_publications_in_biology",
-				"Interactive Fly":"http://www.sdbonline.org/fly/aimain/1aahome.htm",
-				"Barabais":"http://www.barabasilab.com/pubs.php",
-				"Barabais":"http://works.bepress.com/abarabasi/doctype.html#article",
-				"Sci American":"http://www.scientificamerican.com/",
-				"Nature Comm":"http://www.nature.com/ncomms/index.html",
-				"Active Zone":"http://www.cell.com/neuron/activezone",
-				"ScienceBlog":"http://scienceblogs.com/channel/24-hours/?utm_source=globalChannel&utm_medium=link"
-			};
-			links["Deportes"] = {
-				"Chelsea":"http://www.chelseafc.com/page/LatestNewsIndex/0,,10268,00.html",
-				"Autoblog":"http://www.autoblog.com/",
-				"Goal":"http://www.goal.com/en-gb/",
-				"Live Soccer":"http://www.firstrowsports.eu/",
-				"EPL H":"http://www.eplmatches.com/",
-				"ESPN":"http://espn.go.com/",
-				"Bleacher Report":"http://bleacherreport.com/"
-			};
-			links["VideoJuegos"] = {
-				"GamesRadar":"http://www.gamesradar.com/",
-				"IGN":"http://www.ign.com/",
-				"Edge Magazine":"http://www.edge-online.com/",
-				"Gamasutra":"http://www.gamasutra.com/",
-				"TGIsource":"http://www.tigsource.com/",
-				"Video Game Trailers":"http://www.gametrailers.com/",
-				"Team Fortress 2":"http://www.teamfortress.com/",
-				"Talking About Games":"http://www.talkingaboutgames.com/",
-				"Good Old Games":"http://www.gog.com/en/frontpage/",
-				"IndieGames":"http://www.indiegames.com/blog/",
-				"FileFront":"http://www.filefront.com/",
-				"Zero Punctuation":"http://www.escapistmagazine.com/videos/view/zero-punctuation",
-				"the simExchange":"http://www.simexchange.com/login-required.php?webpage=portfolio.php",
-				"OC ReMix":"http://ocremix.org/"
-			};
-			links["Castellano"] = {
-				"Spanish Checker":"http://lomastv.com/free-online-spanish-spelling-grammar-checker.php",
-				"Spanish Translation":"http://www.spanishdict.com/translate/",
-				"El País":"http://www.elpais.com/global/",
-				"euronews":"http://es.euronews.net/",
-				"La Jornada":"http://www.jornada.unam.mx/",
-				"BBC M":"http://www.bbc.co.uk/mundo/",
-				"Gram.":"http://www.studyspanish.com/tutorial.htm",
-				"Vocab.":"http://www.studyspanish.com/vocab/",
-				"Spanish Verbs":"http://www.englishnspanish.com/learn/verbs",
-				"Easily Confused":"http://oxforddictionaries.com/page/easilyconfused"
-			};
-			links["Tecnologia"] = {
-				"Technologia":"http://projecteuler.net/",
-				"Joel":"http://www.joelonsoftware.com",
-				"Ars Technica":"http://arstechnica.com/",
-				"xkcd":"http://xkcd.com/",
-				"Wired":"http://www.wired.com/",
-				"Interbrand":"http://www.interbrand.com",
-				"Engadget":"http://www.engadget.com/",
-				"Win8":"http://blogs.msdn.com/b/b8/",
-				"html5 emacs":"http://test262.ecmascript.org/#",
-				"html5test":"http://www.html5test.com/",
-				"Old New Thing":"http://blogs.msdn.com/b/oldnewthing/",
-				"The Windows Blog":"http://windowsteamblog.com/#",
-				"Gizmodo":"http://gizmodo.com/",
-				"Python":"http://docs.python.org/tutorial/",
-				"TechCrunch":"http://techcrunch.com/",
-				"C":"http://cocoadevcentral.com/articles/000081.php",
-				"Objective-C":"http://cocoadevcentral.com/d/learn_objectivec/",
-				"Ice Monkey":"http://www.icemonkey.com/electronics-2",
-				"Arduino":"http://arduino.cc/en/Tutorial/HomePage",
-				"ACM":"http://queue.acm.org/index.cfm",
-				"Maurus":"https://maurus.net/",
-				"PHP Stuff":"http://www.tbray.org/ongoing/When/200x/2006/02/17/PHP"
-			};
-			links["Politica"] = {
-				"ForAmerica":"http://www.foramerica.org/home/",
-				"ColaLife":"http://www.colalife.org/",
-				"Lincoln Institute":"https://www.lincolninst.edu/",
-				"T4 America":"http://t4america.org/blog/",
-				"DO":"http://thedolectures.co.uk/",
-				"TED":"http://www.ted.com/",
-				"BCG":"http://www.bcg.com/expertise_impact/publications/default.aspx",
-				"Edge":"http://edge.org/",
-				"American Rivers":"http://www.americanrivers.org/newsroom/",
-				"Forest Trends":"http://www.forest-trends.org/publications.php",
-				"Brookings Institute":"http://www.brookings.edu/",
-				"Project Syndicate":"http://www.project-syndicate.org/",
-				"LvM Institute":"http://mises.org/",
-				"Cato Institute":"http://www.cato.org/",
-				"Heritage Foundation":"http://www.heritage.org/",
-				"Breathrough Inst.":"http://thebreakthrough.org/index.shtml",
-				"America 2050":"http://www.america2050.org/research_main.html",
-			};
-			links["Diversion"] = {
-				"digitally imported":"http://www.di.fm/",
-				"gapingvoid":"http://gapingvoid.com/",
-				"theChive":"http://thechive.com/",
-				"WhatShouldWeCallMe":"http://whatshouldwecallme.tumblr.com",
-				"Pics!":"http://daid2.mine.nu/~daid/tigsource_pics/?",
-				"Facebook History":"http://www.collegehumor.com/facebook-history",
-				"Was that Weird":"http://wasthatweird.tumblr.com/",
-				"Tumblr":"https://www.tumblr.com/",
-				"Harvard FML":"http://harvardfml.com/",
-				"GFX Artist":"http://www.gfxartist.com/community/elite_galleries?msg=8",
-				"Radiolab":"http://www.radiolab.org/",
-				"Hulu":"http://www.hulu.com/",
-				"Y23":"http://www.youtube-mp3.org/",
-				"PHD":"http://www.phdcomics.com/comics.php",
-				"ILT":"http://ilovetypography.com/",
-				"Penny Arcade":"http://www.penny-arcade.com/comic/",
-				"50 Orwell Essays":"http://gutenberg.net.au/ebooks03/0300011h.html",
-				"Spill.com":"http://www.spill.com/Default.aspx",
-				"1000":"http://1000awesomethings.com/",
-				"QuickPrint":"http://quickprint.mit.edu/?",
-				"Bros Like This Site":"http://www.broslikethissite.com/",
-				"Food":"http://foodporndaily.com/pictures/juicy-seared-pepper-steak-with-caramelized-onions-and-arugula/",
-				"Pearls Before Swine":"http://comics.com/pearls_before_swine/",
-				"HowStuffWorks":"http://www.howstuffworks.com/",
-				"cleanTechnica":"http://cleantechnica.com/",
-				"Newspeak":"http://www.scn.org/news/newspeak/gone.html",
-				"MIT Theses":"http://dspace.mit.edu/handle/1721.1/7582",
-				"SpaceX":"http://www.spacex.com/updates.php",
-				"MetaPicture":"http://themetapicture.com/",
-				"FFFFound":"http://ffffound.com/",
-				"Harpers":"http://www.harpersbazaar.com/",
-				"Spill":"http://www.spill.com/",
-				"National Geographic":"http://www.nationalgeographic.com/",
-				"Gutenberg Project":"http://www.gutenberg.org/wiki/Main_Page",
-				"Archive Text":"http://archive.org/details/texts",
-				"Techno":"http://goodtechnosongs.com/",
-				"AdrienMezsi":"http://soundcloud.com/adrienmezsi/tracks",
-				"Shazam":"http://www.shazam.com/music/web/tagchart?domain=World",
-				"Songz!":"http://www.thissongslaps.com/",
-				"DJ Mag":"http://www.djmag.com/",
-				"Tiësto":"http://tiestoclublife.wordpress.com/",
-				"xlr8r":"http://www.xlr8r.com/",
-				"FR":"http://fieldrecords.official.fm/",
-				"Music Blog":"http://www.guardian.co.uk/music/musicblog",
-				"Spin":"http://www.spin.com/",
-				"FACT":"http://www.factmag.com/",
-				"FACT Mixes":"http://www.mixcloud.com/FACTMixArchive/",
-				"NME":"http://www.nme.com/",
-				"Book Blog":"http://www.guardian.co.uk/books/booksblog",
-				"4chan":"http://www.4chan.org/",
-				"Vimeo":"http://www.vimeo.com/",
-				"Travel Blog":"http://www.travelblog.org/",
-				"NG Travel Mag":"http://travel.nationalgeographic.com/travel/traveler-magazine/",
-				"Intelligent Travel":"http://intelligenttravel.nationalgeographic.com/"
-			};
-			links["Ahanonu"] = {
-				"No hay un mundo tan brillo...":"1",
-				"Updated: 05.12.12":"1"
-			};
+			//Create the menu
 			QuickLinks();
+			//Add target='_blank' to all links
 			addValues();
 		</script>
 	</body>

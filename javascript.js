@@ -28,6 +28,7 @@ function QuickLinks(){
 	}
 }
 function search_DOM(){
+	//Creates the search engine layout
 	var innerHTMLC = "";
 	//Disable the below line if you want a custom sort
 	//search_categories.sort();
@@ -54,6 +55,7 @@ function search_DOM(){
 	}
 }
 function addValues(){
+	//Scrolls through the DOM tree and adds target='_blank'
 	var alist = document.getElementsByTagName("a");
 	for (i = 0; i <= alist.length-1; i++){
 		alist[i].target="_blank";
@@ -64,6 +66,7 @@ function addValues(){
 	} 
 }
 function keys(obj){
+	//Takes the object and finds the keys.
     var keys = [];
     for(var key in obj){
         if(obj.hasOwnProperty(key)) {    
