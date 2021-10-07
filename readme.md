@@ -45,7 +45,7 @@ quicklinks allows:
 * Edit this file with a new .jpg file to change the background.
 
 ## License
-Copyright (C) 2012 Biafra Ahanonu <bahanonu@gmail.com>
+Copyright (C) 2012 Biafra Ahanonu
 
 "None are so hopelessly enslaved as those who falsely believe they are free."
                                               -Johann Wolfgang von Goethe
